@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Restolji Ventures</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 fixed w-full">
+
+    <!-- Header -->
+    <header class="bg-blue-600 text-white p-6">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Restolji Ventures</h1>
+            <nav class="space-x-4">
+                <a href="index.html" class="hover:underline">Home</a>
+                <a href="about.html" class="hover:underline">About Us</a>
+                <a href="products.html" class="hover:underline">Products/Services</a>
+                <a href="contact.html" class="hover:underline">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Us Section -->
+    <section class="max-w-7xl mx-auto px-4 py-16">
+        <h2 class="text-4xl font-bold text-center mb-8">Get in Touch</h2>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Contact Form -->
+            <div class="bg-white p-8 shadow-md rounded-lg">
+                <h3 class="text-2xl font-semibold mb-4">Send Us a Message</h3>
+                <form action="#" method="POST" class="space-y-4">
+                    <div>
+                        <label for="name" class="block text-lg font-medium">Name</label>
+                        <input type="text" id="name" name="name" required class="w-full p-3 border rounded-md"
+                            placeholder="Your Name" />
+                    </div>
+                    <div>
+                        <label for="email" class="block text-lg font-medium">Email</label>
+                        <input type="email" id="email" name="email" required class="w-full p-3 border rounded-md"
+                            placeholder="Your Email" />
+                    </div>
+                    <div>
+                        <label for="message" class="block text-lg font-medium">Message</label>
+                        <textarea id="message" name="message" rows="4" required class="w-full p-3 border rounded-md"
+                            placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 text-white p-3 rounded-md hover:bg-blue-700">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="bg-white p-8 shadow-md rounded-lg">
+                <h3 class="text-2xl font-semibold mb-4">Our Contact Information</h3>
+                <ul class="space-y-4">
+                    <li><strong>Phone:</strong> +234 802 717 8489</li>
+                    <li><strong>Email:</strong> info@restoljiventures.com</li>
+                    <li><strong>Address:</strong> Lagos, Nigeria</li>
+                </ul>
+
+                <div class="mt-6">
+                    <h4 class="text-xl font-semibold">Follow Us</h4>
+                    <div class="flex space-x-4 mt-2">
+                        <a href="#" class="text-blue-500 hover:text-blue-700">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M22.675 0h-21.35C.597 0 0 .597 0 1.326v21.348C0 23.403.597 24 1.325 24h11.495v-9.294H9.847v-3.622h2.973V8.408c0-2.942 1.796-4.548 4.418-4.548 1.26 0 2.343.093 2.658.135v3.081l-1.825.001c-1.43 0-1.707.679-1.707 1.675v2.194h3.415l-.445 3.622h-2.97V24h5.822C23.403 24 24 23.403 24 22.674V1.326C24 .597 23.403 0 22.675 0z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="text-blue-400 hover:text-blue-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M24 4.557c-.885.394-1.83.662-2.825.78a4.92 4.92 0 002.163-2.723 9.864 9.864 0 01-3.127 1.194 4.905 4.905 0 00-8.36 4.466 13.931 13.931 0 01-10.112-5.13 4.822 4.822 0 001.52 6.573 4.902 4.902 0 01-2.224-.616v.062a4.907 4.907 0 003.946 4.807 4.996 4.996 0 01-2.212.084 4.907 4.907 0 004.588 3.417A9.868 9.868 0 010 19.539a13.9 13.9 0 007.548 2.213c9.057 0 14.01-7.513 14.01-14.01 0-.213-.004-.426-.014-.637A10.01 10.01 0 0024 4.557z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-800 hover:text-black">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2.163C6.805 2.163 2.163 6.805 2.163 12S6.805 21.837 12 21.837 21.837 17.195 21.837 12 17.195 2.163 12 2.163zm0 19.674c-4.927 0-8.91-3.983-8.91-8.91s3.983-8.91 8.91-8.91 8.91 3.983 8.91 8.91-3.983 8.91-8.91 8.91z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <!-- <section class="max-w-7xl mx-auto px-4 py-16">
+        <h3 class="text-2xl font-semibold text-center mb-8">Our Location</h3>
+        <div class="w-full h-96">
+            <iframe class="w-full h-full rounded-md"
+                src="https://www.google.com/maps/embed/v1/place?q=Lagos,+Nigeria&key=YOUR_GOOGLE_MAPS_API_KEY"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section> -->
+
+    <!-- Footer -->
+    <footer class="bg-blue-800 text-white text-center p-4">
+        <div class="space-x-4">
+            <a href="#" class="hover:underline">Facebook</a>
+            <a href="#" class="hover:underline">Twitter</a>
+            <a href="#" class="hover:underline">Instagram</a>
+        </div>
+        <p class="mt-2">&copy; 2024 Business Name. All rights reserved.</p>
+
+        <div class="mt-4 px-6 text-sm text-gray-300">
+            <p>
+                The information provided on this website is intended for educational purposes only.
+                While every effort has been made to ensure the accuracy and reliability of the content,
+                the university does not guarantee its completeness or effectiveness. This website will be
+                deactivated once the course is completed.
+            </p>
+            <p class="mt-2">
+                Some images used on this site have been sourced from the internet and are included
+                for educational and practice purposes only. If you are the copyright owner of any image
+                and believe it has been used without proper attribution, please contact us, and we will
+                make the necessary corrections.
+            </p>
+            <p class="mt-2">
+                The views expressed on this site do not necessarily reflect the official policies or
+                positions of the university. The university is not responsible for any errors or omissions
+                or the results obtained from using this information.
+            </p>
+            <p class="mt-2">
+                By using this website, you acknowledge and agree to these terms.
+            </p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
