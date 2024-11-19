@@ -18,6 +18,7 @@
                 <a href="index.html" class="hover:underline">Home</a>
                 <a href="about.html" class="hover:underline">About Us</a>
                 <a href="products.html" class="hover:underline">Products/Services</a>
+                <a href="blogs.html" class="hover:underline">Blogs</a>
                 <a href="contact.html" class="hover:underline">Contact Us</a>
             </nav>
         </div>
@@ -31,7 +32,7 @@
             <!-- Contact Form -->
             <div class="bg-white p-8 shadow-md rounded-lg">
                 <h3 class="text-2xl font-semibold mb-4">Send Us a Message</h3>
-                <form action="#" method="POST" class="space-y-4">
+                <form id="thankYouForm" action="thankyou.html" method="POST" class="space-y-4">
                     <div>
                         <label for="name" class="block text-lg font-medium">Name</label>
                         <input type="text" id="name" name="name" required class="w-full p-3 border rounded-md"
@@ -138,5 +139,12 @@
 
 
 </body>
+
+<script>
+    document.getElementById("thankYouForm").addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent the form from reloading the page
+        window.location.href = "thankyou.html"; // Redirect to Thank You page
+    });
+</script>
 
 </html>
